@@ -4,7 +4,8 @@ primary: '#405DE6',
     white: '#fff',
     black: '#000',
     grey: '#666666',
-    lightgrey: '#cccccc'
+    lightgrey: '#cccccc',
+    red: '#ED4956'
 
 
 }

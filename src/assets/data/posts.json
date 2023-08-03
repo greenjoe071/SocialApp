@@ -1,0 +1,175 @@
+[
+  {
+    "id": "1",
+    "createdAt": "December 19,2022",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F20230419_150533%20(1).jpg?alt=media&token=22c14d69-d76b-4c09-a96f-388406fde7b4",
+      "https://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F20230419_150450.jpg?alt=media&token=5c00f23a-7d68-4b6f-a372-69c4616a05f5",
+      "https://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F20230419_150509.jpg?alt=media&token=7aacb0f1-ae77-4f74-9c6f-2937645d8ab7"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+    "user": {
+      "id": "u1",
+      "image": "http://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F20230419_150533%20(1).jpg?alt=media&token=22c14d69-d76b-4c09-a96f-388406fde7b4",
+      "username": "Joe Green"
+    },
+    "nofComments": 11,
+    "nofLikes": 34,
+    "comments": [
+      {
+        "id": "1",
+        "comment": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "Tom Hanks"
+        }
+      },
+      {
+        "id": "2",
+        "comment": "Lorem ipsum dolor sit amet con k se ctetu r a dip isicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "Taylor Swift"
+        }
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "createdAt": "December 19,2022",
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+    "user": {
+      "id": "u1",
+      "image": "https://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F20230419_150533%20(1).jpg?alt=media&token=22c14d69-d76b-4c09-a96f-388406fde7b4",
+      "username": "Joe Green"
+    },
+    "nofComments": 11,
+    "nofLikes": 34,
+    "comments": [
+      {
+        "id": "1",
+        "comment": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "Tom Hanks"
+        }
+      },
+      {
+        "id": "2",
+        "comment": "Lorem ipsum dolor sit amet con k se ctetu r a dip isicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "Taylor Swift"
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "createdAt": "June 19,2023",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F2387741089_5652dc6e37_o.jpg?alt=media&token=160d9cef-904f-4dad-a9d7-72a830710a41",
+      "https://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F2545381056_603b2358ff_o.jpg?alt=media&token=7961087c-942c-4e45-a515-aad8e01ee67c"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+    "user": {
+      "id": "u1",
+      "image": "https://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F20230419_150533%20(1).jpg?alt=media&token=22c14d69-d76b-4c09-a96f-388406fde7b4",
+      "username": "Joe Green"
+    },
+    "nofComments": 11,
+    "nofLikes": 34,
+    "comments": [
+      {
+        "id": "1",
+        "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "The Rock"
+        }
+      },
+      {
+        "id": "2",
+        "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "Johnny Dep"
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "createdAt": "July 4,2023",
+    "images": [
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",   
+    "user": {
+      "id": "u1",
+      "image": "https://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F20230419_150533%20(1).jpg?alt=media&token=22c14d69-d76b-4c09-a96f-388406fde7b4",
+      "username": "Joe Green"
+    },
+    "nofComments": 11,
+    "nofLikes": 34,
+    "comments": [
+      {
+        "id": "1",
+        "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "Melissa McCarthy"
+        }
+      },
+      {
+        "id": "2",
+        "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "Bono"
+        }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "createdAt": "July 27, 2023",
+    "images": [
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+    "user": {
+      "id": "u1",
+      "image": "https://firebasestorage.googleapis.com/v0/b/photo-social-9d90d.appspot.com/o/images%2F20230419_150533%20(1).jpg?alt=media&token=22c14d69-d76b-4c09-a96f-388406fde7b4",
+      "username": "Joe Green"
+    },
+    "nofComments": 11,
+    "nofLikes": 34,
+    "comments": [
+      {
+        "id": "1",
+        "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "Anna Taylor Joy"
+        }
+      },
+      {
+        "id": "2",
+        "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+        "user": {
+          "id": "u1",
+          "username": "John Lennon"
+        }
+      }
+    ]
+  }
+]
