@@ -53,10 +53,10 @@ const Carousel = ({images, onDoubleTap =()=>{}}: ICarousel) => {
                  {images.map((_, index) => ( 
                  <View 
                  key={index}
-                 style={{width: 8, 
+                 style={{width: 6, 
                     aspectRatio: 1, 
                     borderRadius: 5,  
-                    backgroundColor: activeImageIndex === index ? colors.grey : colors.white,
+                    backgroundColor: activeImageIndex === index ? colors.blue : colors.white,
                     margin: 4}} />
                     ))}
                   <View />
@@ -83,8 +83,8 @@ const styles = StyleSheet.create({
       width: '100%',
     },
     dot: {
-      width: 7,
-      height: 7,
+      width: 5,
+      height: 5,
       borderRadius: 5,
       backgroundColor: 'white',
       marginHorizontal: 3,
