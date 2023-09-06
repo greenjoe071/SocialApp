@@ -1,24 +1,17 @@
-import { View, StyleSheet, FlatList} from 'react-native';
+import { View, StyleSheet, FlatList } from 'react-native';
 import HomeScreen from './src/screens/HomeScreen/HomeScreen';
 import CommentsScreen from './src/screens/CommentsScreen/CommentsScreen';
 import ProfileScreen from './src/screens/ProfileScreen/ProfileScreen';
+import { NavigationContainer } from '@react-navigation/native';
+import EditProfileScreen from './src/screens/EditProfileScreen/EditProfileScreen';
+import Navigation from './src/Navigation';
 
 const App = () => {
   return (
-<View style={styles.app}>
- {/* <HomeScreen />  */}
- {/* <CommentsScreen /> */}
- <ProfileScreen />
-</View>
- 
-
+    // <Navigation />
+    <EditProfileScreen />
   );
 };
 
-const styles = StyleSheet.create({
-app: {
-  flex: 1
-}
-})
 
-export default App ;
+export default App;
