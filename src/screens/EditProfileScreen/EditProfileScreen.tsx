@@ -49,7 +49,7 @@ const CustomInput = ({
                     onChangeText={onChange}
                     onBlur={onBlur}
                 />
-                {error && <Text style={{color: colors.red}}>{error.message || "Something is Wrong"}</Text>}
+                {error && <Text style={{color: colors.red}}>{error.message || "Sorry, something is wrong"}</Text>}
                 </View>
                
             </View>
