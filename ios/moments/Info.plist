@@ -39,6 +39,11 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Permission needed for app to access photos</string>
 
+	<key>NSCameraUsageDescription</key>
+	<string>Allow $(PRODUCT_NAME) to use the camera</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow $(PRODUCT_NAME) to use the microphone</string>
+
 	<!-- <key>NSCameraUsageDescription</key>
 	<string>Permission needed for app to capture photo</string>
 

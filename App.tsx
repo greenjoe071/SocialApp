@@ -11,9 +11,10 @@ import Navigation from './src/Navigation';
 
 const App = () => {
   return (
-    // <Navigation />
+    <Navigation />
     // <EditProfileScreen />
-    <PostUploadScreen />
+    // <PostUploadScreen />
+    // <HomeScreen />
   );
 };
 

@@ -4,52 +4,36 @@ import ProfileScreen from '../screens/ProfileScreen/ProfileScreen';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { Image } from 'react-native';
-import momentsLogo from '../assets/images/momentsLogo.png'
-import BottomTabNav from './BottomTabNav';
 
-const Stack = createNativeStackNavigator()
+import BottomTabNav from './BottomTabNav';
+import CommentsScreen from '../screens/CommentsScreen/CommentsScreen';
+import { RootNavigator } from './types';
+
+const Stack = createNativeStackNavigator<RootNavigator>()
 
 const Navigation = () => {
   return (
     <NavigationContainer>
 
-      <Stack.Navigator 
+      <Stack.Navigator
         initialRouteName='Home'
-        screenOptions={{headerShown: true}}>
-
-        {/* <Stack.Screen
-          name="Feed"
-          component={HomeScreen}
-          options={{headerTitle: HeaderTitle, headerTitleAlign: "center" }}
-          
-        /> */}
-
+        screenOptions={{ headerShown: true }}>
         <Stack.Screen name="Home"
           component={BottomTabNav}
-          options={{headerShown: false}}/>
-
-        <Stack.Screen
-          name="UserProfile"
-          component={ProfileScreen}
-          options={{title: "Profile"}}
-      
+          options={{ headerShown: false }} 
         />
-      </Stack.Navigator>
 
+        <Stack.Screen 
+          name="Comments"
+          component={CommentsScreen}
+        />
+        
+
+      </Stack.Navigator>
     </NavigationContainer>
   )
 }
 
-const HeaderTitle = () => {
-  return (
-    <Image 
-      source={momentsLogo}
-      // resizeMode='contain'
-      // style={{ width: 150, height: 30}}
-      
-      
-      />
-  )
-}
+
 
 export default Navigation

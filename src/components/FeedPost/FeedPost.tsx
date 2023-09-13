@@ -14,6 +14,7 @@ import Feather from 'react-native-vector-icons/Feather';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Entypo from 'react-native-vector-icons/Entypo'
 import { IframeHTMLAttributes } from 'react';
+import { FeedNavigationProp } from '../../Navigation/types';
 
 interface IFeedPost {
   post: IPost
@@ -25,9 +26,13 @@ const FeedPost = ({post, isVisible}: IFeedPost) => {
 const [isDescriptionExapanded, setIsDescriptionExpanded] = useState(false)
 const [isLike, setisLike] = useState(false)
 
-const navigation = useNavigation()
+const navigation = useNavigation<FeedNavigationProp>()
 const navigateToUser = () => {
   navigation.navigate("UserProfile", {userId: post.user.id})
+}
+
+const navigateToComments = () => {
+  navigation.navigate("Comments", {postId: post.id})
 }
 
 const toggleDescriptionExapnded = () => {
@@ -133,7 +138,7 @@ let postContent = null;
         </Text>
         <Text onPress={toggleDescriptionExapnded}>{isDescriptionExapanded ? 'less' : 'more'} </Text>
 {/* comments */}
-        <Text>View all {post.nofComments} comments</Text>
+        <Text onPress={navigateToComments}>View all {post.nofComments} comments</Text>
         {post.comments.map(comment => (
            <Comment 
            key={comment.id} 

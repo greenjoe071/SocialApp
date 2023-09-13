@@ -4,8 +4,14 @@ import user from '../../assets/data/user.json'
 import styles from './styles'
 import Button from '../../components/Button/Button'
 
+import {useNavigation} from '@react-navigation/native'
+import { ProfileNavigationProp } from '../../Navigation/types'
+
+
 
 const ProfileHeader = () => {
+     const navigation = useNavigation<ProfileNavigationProp>()
+
     return (
 
         // Header
@@ -40,11 +46,11 @@ const ProfileHeader = () => {
             <View style={{}}>
                 <Button
                     text="Edit Profile"
-                    onPress={() => console.warn("Edit Profile Button Pressed")}
+                    onPress={() => navigation.navigate("Edit Profile")}
                 />
             </View>
         </View>
     )
 }
 
-export default ProfileHeader()
+export default ProfileHeader
