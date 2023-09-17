@@ -8,13 +8,16 @@ import PostUploadScreen from './src/screens/PostUploadScreen';
 
 import { NavigationContainer } from '@react-navigation/native';
 import Navigation from './src/Navigation';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 const App = () => {
   return (
-    <Navigation />
-    // <EditProfileScreen />
+    <SafeAreaProvider>
+      <Navigation />
+    {/* // <EditProfileScreen />
     // <PostUploadScreen />
-    // <HomeScreen />
+    // <HomeScreen /> */}
+    </SafeAreaProvider>
   );
 };
 

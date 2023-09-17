@@ -16,6 +16,11 @@ export type RootNavigator = {
     MyProfile: undefined
   }
 
+  export type SearchTabNavigatorParamList = {
+    Users: undefined
+    Posts: undefined
+  }
+
   export type MyProfileNavigationProp = BottomTabNavigationProp<
   BottomTabNavigatorParamList>, "MyProfile"
 

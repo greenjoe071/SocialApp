@@ -109,7 +109,7 @@ const PostUploadScreen = () => {
         />
 
 {/* Top Buttons */}
-      <View style={[styles.buttonContainer, {top:25}]}>
+      <View style={[styles.buttonContainer, {top:35}]}>
         <MaterialIcons name="close" size={30} color={colors.white}/>
 
         <Pressable>
@@ -129,7 +129,11 @@ const PostUploadScreen = () => {
           <Pressable onPress={takePic}
               onLongPress={startRecording}
               onPressOut={stopRecording}>
-            <View style={[styles.circle, {backgroundColor: isRecording? colors.red : colors.white}]} />
+           <View style={styles.circle}>
+              
+            <View style={[styles.circleInner, {backgroundColor: isRecording? colors.red : colors.black}]} />
+            </View>
+             
           </Pressable>}
 
         <Pressable onPress={flipCamera}>
@@ -150,7 +154,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.black
   },
   camera: {
-    aspectRatio:3/4,
+    aspectRatio: 3/4,
     width: "100%"
   },
   buttonContainer: {
@@ -164,8 +168,26 @@ const styles = StyleSheet.create({
     width: 75,
     aspectRatio: 1,
     borderRadius: 75,
+    justifyContent: "center",
+    alignItems: 'center',
     backgroundColor: colors.white
-  }
+  },
+
+  circleOuter: {
+    width: 75,
+    aspectRatio: 1,
+    borderRadius: 75,
+    // backgroundColor: 'black',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  circleInner: {
+    width: '90%', // Adjust this value to control the size of the inner circle
+    aspectRatio: 1,
+    borderRadius: 100, // Use a high value to make it a circle
+    // backgroundColor: 'black', // This is the black border color
+  },
 })
 
 export default PostUploadScreen

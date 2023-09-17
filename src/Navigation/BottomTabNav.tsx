@@ -6,12 +6,16 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import FontAwesome from "react-native-vector-icons/FontAwesome"
 import HomeScreen from "../screens/HomeScreen/HomeScreen";
 import ProfileScreen from "../screens/ProfileScreen/ProfileScreen";
+import NotificationsScreen from "../screens/NotificationsScreen/NotificationsScreen";
 import PostUploadScreen from "../screens/PostUploadScreen"
 import colors from "../theme/colors";
 import HomeStackNavigator from "./HomeStackNavigator";
 import ProfileStackNavigator from "./ProfileStackNavigator";
 
 import { BottomTabNavigatorParamList } from "./types";
+import SearchTabNavigator from "./SearchTabNavigator";
+
+
 
 const Tab = createBottomTabNavigator<BottomTabNavigatorParamList>()
 
@@ -35,11 +39,12 @@ const BottomTabNav = () => {
             />
 
                 <Tab.Screen name="Search"
-                    component={HomeStackNavigator}
+                    component={SearchTabNavigator}
                         options={{tabBarIcon: ({color, size}) => (<MaterialIcons            
                             name="search"
                             size={size} color={color}/>
                             ),
+                            headerShown: false
                     }} 
                 />
 
@@ -55,7 +60,7 @@ const BottomTabNav = () => {
                 />
 
                 <Tab.Screen name="Notifications"
-                    component={PostUploadScreen}
+                    component={NotificationsScreen}
                     options={{tabBarIcon: ({color, size}) => (<MaterialCommunityIcons            
                         name="heart-outline"
                         size={size} color={color}/>
