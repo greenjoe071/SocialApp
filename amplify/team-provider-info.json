@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-moments-staging-173923-authRole",
+      "UnauthRoleArn": "arn:aws:iam::487556125343:role/amplify-moments-staging-173923-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::487556125343:role/amplify-moments-staging-173923-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-moments-staging-173923-deployment",
+      "UnauthRoleName": "amplify-moments-staging-173923-unauthRole",
+      "StackName": "amplify-moments-staging-173923",
+      "StackId": "arn:aws:cloudformation:us-east-2:487556125343:stack/amplify-moments-staging-173923/f805fa40-596e-11ee-b8b2-0af6f2ba9b3d",
+      "AmplifyAppId": "d1781tkus5mk81"
+    },
+    "categories": {
+      "auth": {
+        "moments": {}
+      }
+    }
+  }
+}

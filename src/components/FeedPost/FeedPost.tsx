@@ -7,7 +7,7 @@ import Carousel from '../Carousel/Carousel';
 import VideoPlayer from '../VideoPlayer/VideoPlayer';
 import styles from './styles';
 import colors from '../../theme/colors';
-import fonts from '../../theme/fonts'; // Use 'fonts' instead of 'font'
+import fonts from '../../theme/fonts'; // Use 'fonts' instead of 'font'?
 import { IPost } from '../../types/models';
 import AntDesign from 'react-native-vector-icons/AntDesign'
 import Feather from 'react-native-vector-icons/Feather';
@@ -58,7 +58,7 @@ let postContent = null;
       </DoubleTap>
     )
   } else if (post.images) {
-    console.log(post.video)
+    // console.log(post.video)
     postContent = (<Carousel images={post.images} onDoubleTap={toggleLike} />)
   } else if (post.video) {
 
